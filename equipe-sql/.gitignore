@@ -1,5 +1,0 @@
-.terraform/
-*.tfstate
-*.tfstate.*
-crash.log
-# .terraform.lock.hcl est versionné : toute l'équipe utilise les mêmes versions de providers.
