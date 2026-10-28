@@ -1,9 +1,8 @@
 resource "azurerm_mssql_database" "gold" {
   name                = "db-gold"
   server_id           = azurerm_mssql_server.equipe.id
-  resource_group_name = azurerm_resource_group.equipe.name
+  sku_name = "Basic"
   max_size_gb  = 2
-  sku_name     = "S0"
   tags = {
     owner = "erwan"
   }
